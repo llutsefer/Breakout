@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e25408b7-7feb-471d-bef7-32e6e42cb948" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/breakout_game/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QVqZcRd8r3qkXOjoIEf5D4AdNH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/llutsefer/Projects/IntelliJ IDEA/programowanie_obiektowe_14_wt/breakout_game/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/breakout_game/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/breakout_game/src/main/java/com/example/breakout_game" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.breakout_game.HelloApplication" />
+      <module name="breakout_game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.breakout_game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e25408b7-7feb-471d-bef7-32e6e42cb948" name="Changes" comment="" />
+      <created>1685449152333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685449152333</updated>
+      <workItem from="1685449153365" duration="6641000" />
+      <workItem from="1685457841760" duration="1791000" />
+      <workItem from="1685465356066" duration="2441000" />
+      <workItem from="1685474620812" duration="393000" />
+      <workItem from="1685607732167" duration="4051000" />
+      <workItem from="1685617387597" duration="17376000" />
+      <workItem from="1685655786175" duration="13998000" />
+      <workItem from="1685699740115" duration="193000" />
+      <workItem from="1685703880833" duration="727000" />
+      <workItem from="1685717723144" duration="5000" />
+      <workItem from="1685730469983" duration="291000" />
+      <workItem from="1685793121372" duration="487000" />
+      <workItem from="1685964031241" duration="62000" />
+      <workItem from="1686040496355" duration="9000" />
+      <workItem from="1686040594464" duration="85000" />
+      <workItem from="1686040689365" duration="84000" />
+      <workItem from="1686040958505" duration="30000" />
+      <workItem from="1686044612520" duration="5000" />
+      <workItem from="1686044930504" duration="148000" />
+      <workItem from="1686045588141" duration="104000" />
+      <workItem from="1686060876116" duration="432000" />
+      <workItem from="1686145862824" duration="4000" />
+      <workItem from="1686661963411" duration="826000" />
+      <workItem from="1686831254317" duration="1797000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
