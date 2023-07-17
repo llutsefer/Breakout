@@ -33,35 +33,39 @@ public class Brick extends GraphicsItem{
     }
 
 
-    public CrushType mustCrush(ArrayList<Point2D> ballPositions) {
-        if ( (GameCanvas.getBrickPosition(x, y).getX() - width <= ballPositions.get(0).getX())
-                && (GameCanvas.getBrickPosition(x, y).getX() + width  >=  ballPositions.get(0).getX())
+    public CrushType mustCrash(ArrayList<Point2D> ballPositions) {
+        double canvasHeight = GameCanvas.getCanvasHeight();
+        double canvasWidth = GameCanvas.getCanvasWidth();
+
+        if ((GameCanvas.getBrickPosition(x, y).getX() - width <= ballPositions.get(0).getX())
+                && (GameCanvas.getBrickPosition(x, y).getX() + width >= ballPositions.get(0).getX())
                 && ((int) ballPositions.get(0).getY() == GameCanvas.getBrickPosition(x, y).getY() + height)) {
             return CrushType.VerticalCrush;
-        } else if ( (GameCanvas.getBrickPosition(x, y).getX() <=  ballPositions.get(1).getX())
-                && (GameCanvas.getBrickPosition(x, y).getX() + width >=  ballPositions.get(1).getX())
+        } else if ((GameCanvas.getBrickPosition(x, y).getX() <= ballPositions.get(1).getX())
+                && (GameCanvas.getBrickPosition(x, y).getX() + width >= ballPositions.get(1).getX())
                 && ((int) ballPositions.get(1).getY() == GameCanvas.getBrickPosition(x, y).getY() + height)) {
             return CrushType.VerticalCrush;
-        } else if (( ballPositions.get(2).getX() >= GameCanvas.getBrickPosition(x, y).getX() )
-                && ( ballPositions.get(2).getX() <= GameCanvas.getBrickPosition(x, y).getX() + width)
-                && ((int) ballPositions.get(2).getY() == GameCanvas.getBrickPosition(x, y).getY() )) {
+        } else if ((ballPositions.get(2).getX() >= GameCanvas.getBrickPosition(x, y).getX())
+                && (ballPositions.get(2).getX() <= GameCanvas.getBrickPosition(x, y).getX() + width)
+                && ((int) ballPositions.get(2).getY() == GameCanvas.getBrickPosition(x, y).getY())) {
             return CrushType.VerticalCrush;
-        }else if (( ballPositions.get(3).getX() >= GameCanvas.getBrickPosition(x, y).getX() )
-                && ( ballPositions.get(3).getX() <= GameCanvas.getBrickPosition(x, y).getX() + width )
-                && ((int) ballPositions.get(3).getY() == GameCanvas.getBrickPosition(x, y).getY() )) {
+        } else if ((ballPositions.get(3).getX() >= GameCanvas.getBrickPosition(x, y).getX())
+                && (ballPositions.get(3).getX() <= GameCanvas.getBrickPosition(x, y).getX() + width)
+                && ((int) ballPositions.get(3).getY() == GameCanvas.getBrickPosition(x, y).getY())) {
             return CrushType.VerticalCrush;
-        }
-        else if (((int) ballPositions.get(0).getX() == GameCanvas.getBrickPosition(x, y).getX() + width)
-                &&  GameCanvas.getBrickPosition(x, y).getY() + height >= (int) ballPositions.get(3).getY()
-                &&  GameCanvas.getBrickPosition(x, y).getY() <= (int) ballPositions.get(0).getY()) {
+        } else if (((int) ballPositions.get(0).getX() == GameCanvas.getBrickPosition(x, y).getX() + width)
+                && GameCanvas.getBrickPosition(x, y).getY() + height >= (int) ballPositions.get(3).getY()
+                && GameCanvas.getBrickPosition(x, y).getY() <= (int) ballPositions.get(0).getY()) {
             return CrushType.HorizontalCrush;
-        } else if ( ((int) ballPositions.get(1).getX() == GameCanvas.getBrickPosition(x, y).getX())
-                &&  GameCanvas.getBrickPosition(x, y).getY() + height >= (int) ballPositions.get(3).getY()
-                &&  GameCanvas.getBrickPosition(x, y).getY()  <= (int) ballPositions.get(0).getY()) {
+        } else if (((int) ballPositions.get(1).getX() == GameCanvas.getBrickPosition(x, y).getX())
+                && GameCanvas.getBrickPosition(x, y).getY() + height >= (int) ballPositions.get(3).getY()
+                && GameCanvas.getBrickPosition(x, y).getY() <= (int) ballPositions.get(0).getY()) {
             return CrushType.HorizontalCrush;
         }
+
         return CrushType.NoCrush;
     }
+
 
     public void crush() {
         color = Color.TRANSPARENT;

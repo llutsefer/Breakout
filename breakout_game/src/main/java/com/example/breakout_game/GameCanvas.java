@@ -45,7 +45,7 @@ public class GameCanvas extends Canvas {
             }
             boolean mustWeChangeTheOldValues = true;
             for (Brick brick: bricks) {
-                if(brick.mustCrush(ball.getExtremePoints()) != Brick.CrushType.NoCrush){
+                if(brick.mustCrash(ball.getExtremePoints()) != Brick.CrushType.NoCrush){
                         mustWeChangeTheOldValues = false;
                 }
             }
@@ -79,6 +79,14 @@ public class GameCanvas extends Canvas {
             gameRunning = true;
             animationTimer.start();
         });
+    }
+
+    public static double getCanvasHeight() {
+        return canvasHeight;
+    }
+
+    public static double getCanvasWidth() {
+        return canvasWidth;
     }
 
     public void initialize() {
@@ -157,7 +165,7 @@ public class GameCanvas extends Canvas {
     }
     private boolean shouldBallBounceHorizontallyFromBrick() {
         for (Brick brick : bricks) {
-            if (brick.mustCrush(ball.getExtremePoints()) == Brick.CrushType.HorizontalCrush) {
+            if (brick.mustCrash(ball.getExtremePoints()) == Brick.CrushType.HorizontalCrush) {
                 brick.crush();
                 bricks.remove(brick);
                 return true;
@@ -170,7 +178,7 @@ public class GameCanvas extends Canvas {
     }
     private boolean shouldBallBounceVerticallyFromBrick(){
         for (Brick brick:bricks) {
-            if(brick.mustCrush(ball.getExtremePoints())== Brick.CrushType.VerticalCrush){
+            if(brick.mustCrash(ball.getExtremePoints())== Brick.CrushType.VerticalCrush){
                 brick.crush();
                 bricks.remove(brick);
                 return true;
