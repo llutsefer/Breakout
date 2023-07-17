@@ -20,7 +20,7 @@ Feel free to customize and enhance the game as you wish. Add power-ups, implemen
 ## Contribution
 Contributions are welcome! If you have any suggestions, bug fixes, or new features to propose, please open an issue or submit a pull request.
 ![1]([https://user-images.githubusercontent.com/57569453/246102200-f8627810-47ce-40b4-bbaa-908d1371d4ec.png](https://user-images.githubusercontent.com/57569453/253909920-dc312b04-b1c1-4359-82ca-b3836d1d50f5.png))
-![1](https://user-images.githubusercontent.com/57569453/253909920-dc312b04-b1c1-4359-82ca-b3836d1d50f5.png)
+![2](https://user-images.githubusercontent.com/57569453/253909920-dc312b04-b1c1-4359-82ca-b3836d1d50f5.png)
 
 Happy coding!
 <sub>**Made by Nazar Kuziv 17.07.2023**</sub>	
